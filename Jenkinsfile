@@ -2,10 +2,6 @@ pipeline{
 
     agent any
 
-    tools{
-       npm 'NodeJS 4.8.6' 
-    }
-    
 
     stages{
         stage('build'){
